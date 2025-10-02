@@ -1,0 +1,51 @@
+#vierkant1{
+    background-color: rgb(186, 186, 17);
+    height: 10rem;
+    width: 10rem;
+
+    position: absolute;
+    top: 20rem;
+    left: 40rem;
+
+    z-index: 2;
+}
+
+#vierkant1 p{
+    position: absolute;
+    color: white;
+    margin-left: 0.5rem;
+}
+
+#vierkant2{
+    background-color: lightblue;
+    height: 10rem;
+    width: 10rem;
+
+    position: absolute;
+    top: 22.5rem;
+    left: 42.5rem;
+    z-index: 1;
+}
+
+#vierkant2 p{
+    position: absolute;
+    color: white;
+    margin-left: 0.5rem;
+}
+
+#vierkant3{
+    background-color: darkblue;
+    height: 10rem;
+    width: 10rem;
+
+    position: absolute;
+    top: 25rem;
+    left: 45rem;
+
+}
+
+#vierkant3 p{
+    position: absolute;
+    color: white;
+    margin-left: 0.5rem;
+}
