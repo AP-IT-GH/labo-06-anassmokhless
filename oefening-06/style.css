@@ -1,0 +1,40 @@
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+figure{
+    height: 10rem;
+    width: 10rem;
+}
+
+#laag1{
+    background-color: orange;
+    position: absolute;
+    top: 20rem;
+    left: 36rem;
+    color: white;
+    
+}
+
+#laag2{
+    background-color: lightblue;
+    position: absolute; 
+    top: 22rem;
+    left: 38rem;
+    color: white;
+   z-index: -1;
+}
+
+#laag3{
+    background-color: darkblue;
+    position: absolute;
+    top: 24rem;
+    left: 40rem;
+    color: white;
+    z-index: -2;
+}
+
